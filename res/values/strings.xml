@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">com.splash</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="wisata_alam">WISATA ALAM</string>
+    <string name="wisata_belanja">WISATA BELANJA</string>
+    <string name="wisata_keluarga">WISATA KELUARGA</string>
+    <string name="wisata_sejarah">WISATA SEJARAH</string>
+    <string name="wisata_kuliner">WISATA KULINER</string>
+    <string name="todo">TODO</string>
+
+</resources>

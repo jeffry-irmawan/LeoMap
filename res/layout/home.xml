@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000306"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+       <Button
+           android:id="@+id/button5"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentLeft="true"
+           android:layout_alignParentTop="true"
+           android:layout_marginLeft="29dp"
+           android:layout_marginTop="40dp"
+           android:onClick="kuliner"
+           android:drawableTop="@drawable/kuliner" />
+
+       <Button
+           android:id="@+id/button1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/button5"
+           android:layout_marginLeft="54dp"
+           android:layout_toRightOf="@+id/button4"
+           android:onClick="alam"
+           android:drawableTop="@drawable/alam_1" />
+
+       <Button
+           android:id="@+id/button3"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignLeft="@+id/button5"
+           android:layout_centerVertical="true"
+           android:layout_marginLeft="28dp"
+           android:onClick="sejarah"
+           android:drawableTop="@drawable/sejarah" />
+
+       <Button
+           android:id="@+id/button2"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignLeft="@+id/button1"
+           android:layout_below="@+id/button3"
+           android:onClick="belanja"
+           android:drawableTop="@drawable/belanja" />
+
+       <Button
+           android:id="@+id/button4"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentBottom="true"
+           android:layout_marginBottom="53dp"
+           android:layout_toRightOf="@+id/button3"
+           android:onClick="keluarga"
+           android:drawableTop="@drawable/keluarga" />
+
+</RelativeLayout>
